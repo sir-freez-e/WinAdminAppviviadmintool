@@ -6,7 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using System.Diagnostics;
+=======
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
 using System.Windows.Forms;
 
 namespace WinAdminApp
@@ -43,6 +46,7 @@ namespace WinAdminApp
             Application.Exit();
             Environment.Exit(0);
         }
+<<<<<<< HEAD
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -69,5 +73,7 @@ namespace WinAdminApp
         {
             System.Diagnostics.Process.Start("ResetWinUpdate.bat");
         }
+=======
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
     }
 }

@@ -34,6 +34,7 @@
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.Exit = new System.Windows.Forms.ToolStripMenuItem();
             this.Show = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -42,6 +43,8 @@
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+=======
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,24 +58,36 @@
             // 
             // contextMenuStrip1
             // 
+<<<<<<< HEAD
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+=======
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Exit,
             this.Show});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
+<<<<<<< HEAD
             this.contextMenuStrip1.Size = new System.Drawing.Size(115, 52);
+=======
+            this.contextMenuStrip1.Size = new System.Drawing.Size(104, 48);
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // Exit
             // 
             this.Exit.Name = "Exit";
+<<<<<<< HEAD
             this.Exit.Size = new System.Drawing.Size(114, 24);
+=======
+            this.Exit.Size = new System.Drawing.Size(103, 22);
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
             this.Exit.Text = "Exit";
             this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // Show
             // 
             this.Show.Name = "Show";
+<<<<<<< HEAD
             this.Show.Size = new System.Drawing.Size(114, 24);
             this.Show.Text = "Show";
             // 
@@ -171,6 +186,18 @@
             this.Controls.Add(this.button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
+=======
+            this.Show.Size = new System.Drawing.Size(103, 22);
+            this.Show.Text = "Show";
+            // 
+            // Mainapp
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(913, 382);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
             this.Name = "Mainapp";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vivid Admin Tool";
@@ -186,6 +213,7 @@
         private ContextMenuStrip contextMenuStrip1;
         private ToolStripMenuItem Exit;
         private ToolStripMenuItem Show;
+<<<<<<< HEAD
         private Button button1;
         private Button button2;
         private Button button3;
@@ -194,5 +222,7 @@
         private Button button6;
         private Button button7;
         private Button button8;
+=======
+>>>>>>> 92bfaf1fe102e7dbd4e0209ba183823b9a7a81ca
     }
 }
